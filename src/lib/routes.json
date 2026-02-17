@@ -1,0 +1,36 @@
+[
+     {
+        "link": "C57-L2-A4",
+        "activity": "Vision"
+    },
+    
+    {
+        "link": "C58-L1-A1",
+        "activity": "Imagine to design"
+    } ,
+    
+    {
+        "link": "C58-L1-PCA",
+        "activity": "Prototyping"
+    },
+    
+    {
+        "link": "C58-L2-AA",
+        "activity": "User profiles"
+    },
+    
+    {
+        "link": "C59-L1-A4",
+        "activity": "Promotions"
+    },
+    
+    {
+        "link": "C59-L3-A1B",
+        "activity": "Campaign"
+    },
+    
+    {
+        "link": "C59-L3-AA",
+        "activity": "Read the ads"
+    }
+]
