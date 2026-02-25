@@ -32,5 +32,14 @@
     {
         "link": "C59-L3-AA",
         "activity": "Read the ads"
+    },
+     {
+        "link": "C64-L1-PCA",
+        "activity": "Favourite Topic"
+    } ,
+    
+    {
+        "link": "C64-L2-AA",
+        "activity": "Presentation"
     }
 ]
