@@ -6,10 +6,8 @@ const LayoutC57L2A4 = () => {
       <div className="flex flex-col gap-2 justify-center items-center">
         <h3 className="text-3xl font-bold text-center text-black">Vision</h3>
 
-        {/* <p className="text-zinc-600 text-lg italic">
-          For example: This apple costs $5 per piece. This Bookstand is
-          available at 20% discount on its price of 100 $.
-        </p> */}
+        <p className="text-zinc-800 text-2xl italic">
+Let’s create a vision board to stay at the top of your game.        </p>
       </div>
 
       <div className="grid grid-cols-12 w-[90%]  place-items-center gap-10">
@@ -20,10 +18,11 @@ const LayoutC57L2A4 = () => {
           >
             <div className="transform-3d hover:transform-[rotateY(180deg)] transition-all duration-500 relative h-full w-full">
               {/* f */}
-              <div className="absolute backface-hidden h-full w-full border border-violet-900 rounded-lg shadow flex justify-center items-center gap-3 p-5">
+              <div className="absolute backface-hidden h-full w-full border border-violet-900 rounded-lg shadow flex justify-center items-center flex-col gap-3 p-5">
                 <h4 className="text-xl font-bold text-black text-center">
                   {item.name}
                 </h4>
+                <p className="font-bold text-lg text-center text-orange-600 italic">Flip the card to see the context with examples.</p>
               </div>
               {/* b */}
               <div className="absolute backface-hidden h-full w-full  rounded-lg shadow flex justify-center items-center gap-3 p-5 flex-col transform-[rotateY(180deg)] border border-black ">

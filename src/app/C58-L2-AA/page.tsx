@@ -9,7 +9,7 @@ const Page = () => {
           USER PROFILES
         </h3>
 
-        <p className="text-zinc-600 text-lg italic">
+        <p className="text-zinc-600 text-xl italic">
           Create user profiles based on the following app users. See the example
           for reference.
         </p>
@@ -22,11 +22,7 @@ const Page = () => {
             <MyImage path="/C58Images/Players.jpg" fill />
           </div>
 
-          <textarea
-            placeholder="write here..."
-            rows={3}
-            className="w-[90%] p-2 text-black "
-          />
+        
         </div>
 
         <div className="col-span-6 p-2  border w-full flex flex-col gap-2 justify-center items-center">
@@ -35,44 +31,40 @@ const Page = () => {
             <MyImage path="/C58Images/Audience.jpg" fill />
           </div>
 
-          <textarea
-            placeholder="write here..."
-            rows={3}
-            className="w-[90%] p-2 text-black "
-          />
+         
         </div>
 
         <div className="col-span-6 border  w-full flex flex-col gap-2 justify-center items-center p-2">
-          <h3 className="text-lg text-black">
+          <h3 className="text-xl text-black">
             Example: players enjoy listening to or watching sports commentary
           </h3>
 
-          <textarea
-            placeholder="write here..."
-            rows={3}
-            className="w-[90%] p-2 text-black "
-          />
+         
         </div>
 
         <div className="col-span-6 border  w-full flex flex-col gap-2 justify-center items-center p-2">
-          <h3 className="text-lg text-black">
+          <h3 className="text-xl text-black">
             Example: audience enjoy watching games on sports channel{" "}
           </h3>
 
+         
+        </div>
+
+        <div className="col-span-12  my-3  w-full flex flex-col gap-2 justify-center items-center p-2">
           <textarea
             placeholder="write here..."
             rows={3}
             className="w-[90%] p-2 text-black "
           />
         </div>
-
+        
         <div className="col-span-12 border  w-full flex flex-col gap-2 justify-center items-center p-2">
           <ul className="list-disc space-y-2">
-            <li className="text-lg text-black">INTERESTS</li>
-            <li className="text-lg text-black">PURPOSE OF USING THE APP</li>
-            <li className="text-lg text-black">FREQUENCY OF USAGE</li>
-            <li className="text-lg text-black">EYE-CATCHING VISUALS</li>
-            <li className="text-lg text-black">USER EXPERIENCE</li>
+            <li className="text-xl text-black">INTERESTS</li>
+            <li className="text-xl text-black">PURPOSE OF USING THE APP</li>
+            <li className="text-xl text-black">FREQUENCY OF USAGE</li>
+            <li className="text-xl text-black">EYE-CATCHING VISUALS</li>
+            <li className="text-xl text-black">USER EXPERIENCE</li>
           </ul>
         </div>
       </div>
