@@ -16,7 +16,7 @@ Pitching is an art. What we witnessed in Shark Tank was kids using this artform 
         <div className="flex flex-col justify-start items-center  w-[70%]">
             <p className="text-2xl text-center font-bold text-black ">What if you were to present on SharkTank or other similar panels? What kind of presentation would you make?</p>
 
-            <MyImage path="/C64Images"/>
+            <MyImage path="/C64Images/Pitch.jpg"/>
 
             <p className="text-xl text-black ">The product can be a schoolbag as suggested earlier, or it can even be a product of your choice!</p>
         </div>
